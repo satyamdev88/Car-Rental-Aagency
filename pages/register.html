@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Registration</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="register-container">
+            <div class="register-text-container">
+                <h2 class="register-text">
+                    Register Here
+                </h2>
+            </div>
+            <form action="" method="post" id="form-register">
+                <div class="fname">
+                    <label for="fname">First Name : &nbsp;</label>
+                    <input type="text" name="fname" id="fname" placeholder="Enter Your First Name" required>
+                </div>
+                <div class="lname">
+                    <label for="lname">Last Name : &nbsp;</label>
+                    <input type="text" name="lname" id="lname" placeholder="Enter Your Last Name" required>
+                </div>
+                <div class="age">
+
+                    <label for="age">Your Age : &nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" name="age" id="age" placeholder="Enter Your Age" required>
+                </div>
+                <div class="mob-num">
+
+                    <label for="contact">Contact : &nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" name="contact" id="contact" placeholder="Enter Your Contact Number" required>
+                </div>
+                <div class="email">
+                    <label for="email">Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Valid Email" required>
+                </div>
+                <div class="create-pass">
+                    <label for="password">Password :&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="password" name="password" id="password" placeholder="Create Password">
+                </div>
+                <div class="conf-pass">
+                    <label for="c-password">Password :&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="password" name="password" id="c-password" placeholder="Re-enter Password">
+                </div>
+                <div class="register-as">
+                    <label for="cust-serv">Register as: &nbsp;&nbsp;&nbsp;</label>
+                    <select name="cust-serv" id="cust-serv">
+                        <option value="1">Customer</option>
+                        <option value="2">Service Provider</option>
+                    </select>
+                </div>
+                <div class="gender">
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="other" value="other">
+                    <label for="other">Other</label>
+                </div>
+                <div class="btn">
+                    <input type="submit" class="submit-btn">
+                </div>
+            </form>
+            <div class="login">
+                <p class="login-text">Already have an account?<a href="../pages/login.html">Login</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

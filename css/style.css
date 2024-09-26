@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.head-container {
+    background: linear-gradient(45deg, rgba(121, 121, 19, 0.248), rgba(255, 255, 255, 0.258), rgba(4, 200, 207, 0.168)), url('../images/background\ car\ img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.s-m {
+    height: 50px;
+    /* background-color: red; */
+}
+
+.s-m,
+.left-s-m,
+.phone-number,
+.email-contact-container,
+.right-s-m {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.left-s-m {
+    gap: 40px;
+}
+
+.right-s-m {
+    gap: 22px;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 25px;
+}
+
+.l-s {
+    height: 80px;
+    /* background-color: green; */
+    align-items: center;
+    justify-content: center;
+}
+
+.l-s,
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.navbar {
+    gap: 20px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+    transition: .5s ease-in-out;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+.search-container{
+    padding: 10px 0 40px 0 ;
+}
+.inner-search-container {
+    margin: 45px;
+    text-align: center;
+    align-items: center;
+}
+
+.inner-search-container div {
+    margin: 15px 20px;
+}
+
+.inner-search-container div input {
+    padding: 10px;
+    outline: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.inner-search-container div .submit-btn {
+    outline: none;
+    padding: 0px;
+    height: 60px;
+    width: 200px;
+    border-radius: 20px;
+    background: blue;
+    color: white;
+    border: none;
+}
+
+.inner-search-container .welcome-text-div {
+    margin: 15px 0px;
+    padding: 20px 0;
+}
+
+.caronrent-text{
+    font-size: 40px;
+}
+.l-s-btn{
+    display: flex;
+}
+.l-s-btn div a{
+    padding: 5px 20px;
+    margin: 0 10px ;
+    border-radius: 5px;
+    border: 2px solid green;
+    color: black;
+    background-color: yellow;
+    transition: .5s ease-in-out;
+}
+.l-s-btn div a:hover{
+    background-color: green;
+    border: 2px solid yellow;
+}
+
+/* about section */
+.welcome-text,.serv-text,.contact-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.w-t-1,.w-t-2,.w-t-3,.s-t-1,.s-t-2,.c-t-1,.c-t-2{
+    font-size: 60px;
+}
+.w-t-1,.w-t-3,.s-t-1,.c-t-1{
+    color: #F77D0A;
+}
+.w-t-2,.s-t-2,.c-t-2{
+    color: #2B2E4A
+}
+
+.about-img-container{
+    margin: 20px 0 0 0;
+    text-align: center;
+    /* background-color: pink; */
+}
+.about-img{
+    text-align: center;
+}
+.inner-about-desc{
+    width: 70%;
+    margin: 0 auto;
+}
+.about-detail{
+    font-size: 19px;
+    text-align: justify;
+}
+/* End about section */
+
+
+/* Service Section */
+.service-container{
+    padding: 30px 0 30px 0;
+    margin: 30px 0 30px 0;
+}
+.inner-serv-card-container{
+    width: 60%;
+    margin: 0 auto;
+}
+.serv-card-top,.serv-card-bottom{
+    display: flex;
+    text-align: justify;
+}
+.serv-card-top div,.serv-card-bottom div{
+    padding: 10px 20px;
+    margin: 10px ;
+    background: #F4F5F8;
+    transition: .5s;
+}
+
+.s-c-num{
+    text-align: right;
+    color: white;
+    font-size: 30px;
+}
+.s-c-head{
+    font-weight: bold;
+    font-size: 20px;
+}
+/* End Service Section */
+
+/* Contact form */
+.inner-contact-form{
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.inner-contact-form form div input,textarea{
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 2px solid black;
+    font-size: 18px;
+    color: black;
+}
+.send-btn-container a{
+    border: 2px solid purple;
+    padding: 5px 40px;
+    border-radius: 5px;
+    color: black;
+    transition: .5s;
+}
+.send-btn-container a:hover{
+    background-color: purple;
+}
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+/* End Contact form */
+
+/* Footer */
+.foot-container{
+    background-color: #2B2E4A;
+    padding: 20px 0;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+.copyright{
+    text-align: center;
+}
+.copyright-text span, .designed-by span{
+    color: #F77D0A;
+}
+/* End Footer */

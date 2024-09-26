@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    background: linear-gradient(#754eb5,#02a3a8);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-container{
+    background-color: white;
+    height: 80vh;
+    width: 35vw;
+    box-shadow: 0px 0px 40px;
+    border-radius: 5px;
+}
+.register-text-container{
+    /* background-color: red; */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+}
+#form-register{
+    /* background-color: yellow; */
+    margin: 20px 0;
+    text-align: center;
+    font-size: 20px;
+}
+.fname,.lname,.age,.email,.create-pass,.conf-pss,.gender{
+    /* background-color: teal; */
+    margin: 5px 0;
+    padding: 5px 0;
+}
+.register-as,.gender{
+    text-align: left;
+    padding-left: 80px;
+    margin-top: 10px;
+}
+#form-register input,select{
+    padding: 10px 20px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+
+}
+.btn{
+    margin: 10px 0;
+}
+#form-register .submit-btn{
+    padding: 10px 0;
+    font-size: 18px;
+    width: 200px;
+    border:2px solid green;
+    outline: none;
+    border-radius: 10px;
+    background: transparent;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+#form-register .submit-btn:hover{
+    background-color: yellow;
+    border: 2px solid yellow;
+}
+.login{
+    text-align: center;
+}
